@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #D8FFDB;
+    color: #fff;
+    font-family: Helvatcia;
+}
+
+.header__section {
+    display: flex;
+    align-items: center;
+}
+
+.header__item {
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+    color: #000;
+}
+
+
+.headerlogo {
+    color: #000;
+}
+
+.header__item:hover {
+    background-color: #D8FFDB;
+}
+
+.headerButton:hover {
+    text-decoration: underline;
+}
+
+
+.table_container {
+    margin: auto;
+    width: 1170px;
+    padding: 15px;
+
+}
+
+table {
+    max-height: 100%;
+
+}
+
+.table {
+    width: 100%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+}
+
+.table tr {
+    transition: all .3s;
+}
+
+footer {
+    background-color: #545d35;
+    margin: 20px 0px 20px 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.link :hover {
+    color: #41BF00;
+    text-decoration: underline;
+}
+
+table, th, td {
+    padding: 20px 40px 20px 20px;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+tr:hover {
+    background-color: #41BFD8;
+}
+
+.wrapper {
+    max-width: 1170px;
+    padding: 20px 0px 20px 0px;
+    margin: auto;
+}
+
+.table tr {
+    transition: all .3s;
+    font-size: 20px;
+}
